@@ -6,19 +6,29 @@
 [![Flattr donate button](https://raw.github.com/balupton/flattr-buttons/master/badge-89x18.gif)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
 [![PayPayl donate button](https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QB8GQPZAH84N6 "Donate once-off to this project using Paypal")
 
-Uppercase your text document's content by adding either the `uc` or `uppercase` extension to it
+Convert any of your templates to HTML from the Slim template syntax
 
-Convention:  `.txt.(uc|uppercase)`
+Convention:  `.anything.(slim)`
 
 
 
 ## Install
 
-```
-docpad install docpad-plugin-slim
-```
+1. [Install Ruby](http://www.ruby-lang.org/en/downloads/)
 
+1. [Install the Slim gem](http://rubygems.org/gems/slim/)
 
+1. Install this plugin
+
+	```
+	docpad install slim
+	```
+
+### Output Style
+In default mode the output HTML will be in a minified state. You can *prettify* the HTML by setting the `pretty` config to `true`. When Docpad is in the `development` mode `pretty` is set to `true`.
+
+### Bundler Support
+If you use [Bundler](http://bundler.io/) to manage your rubygems, you can execute the Slim compilation using `bundle exec` by setting the `bundler` option to `true`. By default it is set to `false`.
 
 ## History
 You can discover the history inside the `History.md` file
