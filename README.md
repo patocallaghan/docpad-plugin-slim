@@ -36,4 +36,4 @@ You can discover the history inside the `History.md` file
 Copyright [Pat O'Callaghan](https://github.com/patocallaghan). All rights reserved.
 
 Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissive_free_software_licence) [MIT License](http://creativecommons.org/licenses/MIT/)
-<br/>Copyright &copy; YEAR+ [NAME](URL)
+<br/>Copyright &copy; 2013 + [Pat O'Callaghan](https://github.com/patocallaghan)

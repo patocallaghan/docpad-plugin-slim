@@ -1,12 +1,12 @@
 {
 	"name": "docpad-plugin-slim",
 	"version": "0.0.1",
-	"description": "DocPad plugin that adds the ability to render Something to Something Else",
+	"description": "DocPad plugin that adds the ability to render Slim templates to HTML",
 	"homepage": "https://github.com/patocallaghan/docpad-plugin-slim",
 	"keywords": [
 		"docpad",
-	"docpad-plugin",
-	"slim"
+		"docpad-plugin",
+		"slim"
 		],
 	"author": "Pat O\\'Callaghan",
 	"maintainers": [
