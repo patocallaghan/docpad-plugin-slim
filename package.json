@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-slim",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "DocPad plugin that adds the ability to render Slim templates to HTML",
   "homepage": "https://github.com/patocallaghan/docpad-plugin-slim",
   "keywords": [
