@@ -1,42 +1,42 @@
 {
-	"name": "docpad-plugin-slim",
-	"version": "0.0.2",
-	"description": "DocPad plugin that adds the ability to render Slim templates to HTML",
-	"homepage": "https://github.com/patocallaghan/docpad-plugin-slim",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"slim"
-		],
-	"author": "Pat O\\'Callaghan",
-	"maintainers": [
-		"Pat O\\'Callaghan"
-		],
-	"contributors": [
-		"Pat O\\'Callaghan (http://github.com/patocallaghan)"
-		],
-	"bugs": {
-		"url": "https://github.com/patocallaghan/docpad-plugin-slim/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/patocallaghan/docpad-plugin-slim.git"
-	},
-	"engines": {
-		"node": ">=0.8"
-	},
-	"peerDependencies": {
-		"docpad": "6"
-	},
-	"dependencies": {
-		"safeps": "~2.2.9",
-		"taskgroup": "~3.3.1"
-	},
-	"devDependencies": {
-		"coffee-script": "~1.6.3"
-	},
-	"main": "./out/slim.plugin.js",
-	"scripts": {
-		"test": "node ./out/slim.test.js"
-	}
+  "name": "docpad-plugin-slim",
+  "version": "0.0.3",
+  "description": "DocPad plugin that adds the ability to render Slim templates to HTML",
+  "homepage": "https://github.com/patocallaghan/docpad-plugin-slim",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "slim"
+  ],
+  "author": "Pat O\\'Callaghan",
+  "maintainers": [
+    "Pat O\\'Callaghan"
+  ],
+  "contributors": [
+    "Pat O\\'Callaghan (http://github.com/patocallaghan)"
+  ],
+  "bugs": {
+    "url": "https://github.com/patocallaghan/docpad-plugin-slim/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patocallaghan/docpad-plugin-slim.git"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  },
+  "dependencies": {
+    "safeps": "~2.2.9",
+    "taskgroup": "~3.3.1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "main": "./out/slim.plugin.js",
+  "scripts": {
+    "test": "node ./out/slim.test.js"
+  }
 }
