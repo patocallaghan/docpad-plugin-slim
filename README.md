@@ -31,6 +31,9 @@ If you use [Bundler](http://bundler.io/) to manage your rubygems, you can execut
 You can discover the history inside the `History.md` file
 
 
+##Note
+This plugin is **heavily** influenced by [Balupton](https://github.com/balupton)'s awesome Sass [Docpad plugin](https://github.com/docpad/docpad-plugin-sass)
+
 
 ## License
 Copyright [Pat O'Callaghan](https://github.com/patocallaghan). All rights reserved.
