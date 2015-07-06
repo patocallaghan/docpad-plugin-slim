@@ -79,6 +79,8 @@ module.exports = (BasePlugin) ->
 
 				# Build our command
 				command = [execPath, '--stdin']
+				command.push('--locals')
+				command.push(JSON.stringify(opts.templateData))
 				if config.pretty
 					command.push('--pretty')
 				if config.bundler
