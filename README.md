@@ -7,7 +7,7 @@ Convert any of your templates to HTML from the Slim template syntax
 
 Convention:  `.anything.(slim)`
 
-
+*NOTE:* If calling metadata in your `.slim` templates you need to call it using `= document["title"]` as slim doesn't understand dot notation, i.e. `document.title`
 
 ## Install
 
